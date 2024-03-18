@@ -2655,7 +2655,7 @@ input, select, textarea {
 
 		.feature .content {
 			display: inline-block;
-			padding: 3.5em;
+			padding: 0 3.5em 3.5em 3.5em;
 			vertical-align: middle;
 			width: 48%;
 		}
@@ -2664,8 +2664,22 @@ input, select, textarea {
 				margin-bottom: 0.5em;
 			}
 
+			.feature .content p span {
+				color: #f31797;
+			}
+
 			.feature .content :last-child {
 				margin: 0;
+			}
+
+			.feature .content .title-and-links-container {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				margin-bottom: 0.5em;
+			}
+			.feature .content .title-and-links-container h3{
+				margin-bottom: 0;
 			}
 
 		.feature.left {
@@ -2789,13 +2803,22 @@ input, select, textarea {
 			font-size: 2.5em;
 			margin: 0;
 		}
+		
+		#header h2{
+			margin-top: 0;
+		}
 
 		#header p {
 			font-size: 1.5em;
 			line-height: 1.5em;
-			margin: 0.25em 0 0 0;
+			/* margin: 0.25em 0 0 0; */
+			margin: 0 auto;
+			max-width: 1400px;
 		}
 
+		#header p span{
+			color: rgb(180, 255, 220);
+		}
 /* Footer */
 
 	#footer {
