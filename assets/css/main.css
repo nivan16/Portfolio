@@ -2734,6 +2734,11 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
+				.feature.right .title-and-links-container {
+					display: flex;
+					flex-direction: row-reverse;
+				}
+
 		.feature.long .content {
 			padding-top: 0;
 		}
@@ -3252,6 +3257,17 @@ input, select, textarea {
 				#header p {
 					font-size: 1em;
 				}
+
+		/* Feature */
+				
+			.feature.left .title-and-links-container {
+				flex-direction: row;
+			}
+			
+			.feature .content .title-and-links-container-long {
+				display: flex;
+				justify-content: space-between;
+			}
 
 		/* Footer */
 
