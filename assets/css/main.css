@@ -3060,7 +3060,11 @@ input, select, textarea {
 			}
 
 				.feature .content {
-					padding: 2.5em;
+					padding: 1em 2.5em 2.5em 2.5em;
+				}
+
+				.feature.first .content p {
+					line-height: 1.55em;
 				}
 
 		/* Header */
@@ -3119,6 +3123,11 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
+		/* Feature */
+			
+			.feature.first .content p {
+				line-height: 1.35em;
+			}
 	}
 
 /* Narrower */
