@@ -3010,6 +3010,8 @@ input, select, textarea {
 			display: block;
 			position: relative;
 			width: 25em;
+			flex: 1 1 35%;
+			-ms-flex: 1 1 35%;
 		}
 
 			.spotlights > section > .image img {
@@ -3048,7 +3050,8 @@ input, select, textarea {
 			-ms-justify-content: center;
 			justify-content: center;
 			width: 50em;
-			-ms-flex: 1;
+			flex: 1 1 65%;
+			-ms-flex: 1 1 65%;
 		}
 
 			.spotlights > section > .content > .inner {

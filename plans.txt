@@ -1,9 +1,16 @@
 Styling:
     Desktop:
-        Change the #sidebar width & the #wrapper (that'll say my name) to about 8em
-        Change the sidebar (which is actually the body background color) to black
+        ***Change the #sidebar width & the #wrapper (that'll say my name) to about 8em
+        ***Change the sidebar (which is actually the body background color) to black
 
-        Change the .wrapper.style1 background-color to (around) #0d3464
+        ***Change the .wrapper.style1 background-color to (around) #0d3464
+
+
+    Mobile:
+        The navbar disappears in mobile in the base template, which will be a problem i need to resolve (likely in main.js)
+
+        The project showcase portion of the template on mobile formats in a way that doesn't look too proportionate compared to
+        the other size possibilities, and the landing page changes to a view height of about 20% from 100%
 
 
 Keep in mind there are 2 outside static pages that I most likely will not use, since i plan to use a 
@@ -11,3 +18,4 @@ carousel for my projects where onclick the style will change to transform: trans
 depending on the arrow that is clicked
 
 Also use gifs for the projects
+
