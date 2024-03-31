@@ -1,0 +1,13 @@
+Styling:
+    Desktop:
+        Change the #sidebar width & the #wrapper (that'll say my name) to about 8em
+        Change the sidebar (which is actually the body background color) to black
+
+        Change the .wrapper.style1 background-color to (around) #0d3464
+
+
+Keep in mind there are 2 outside static pages that I most likely will not use, since i plan to use a 
+carousel for my projects where onclick the style will change to transform: translateX(0 to 100/-100 to 200/-200 and then back to 0)
+depending on the arrow that is clicked
+
+Also use gifs for the projects
