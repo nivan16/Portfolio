@@ -3883,9 +3883,18 @@ input, select, textarea {
 		background-size: 100% 100%;
 	}
 
-		#intro p {
+		#intro h1 {
+			line-height: normal;
+			word-spacing: -5px;
+			letter-spacing: normal;
+			margin-bottom: 0.2em;
+		}
+
+		#intro h2 {
+			font-weight: 400;
 			font-size: 1.25em;
-			color: white;
+			color: rgb(255, 217, 0);
+			margin-bottom: 1.25em;
 		}
 
 			@media screen and (max-width: 980px) {
