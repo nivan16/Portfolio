@@ -3887,14 +3887,15 @@ input, select, textarea {
 			line-height: normal;
 			word-spacing: -5px;
 			letter-spacing: normal;
-			margin-bottom: 0.2em;
+			margin-bottom: 0.25em;
 		}
 
 		#intro h2 {
-			font-weight: 400;
-			font-size: 1.25em;
-			color: rgb(255, 217, 0);
 			margin-bottom: 1.25em;
+			letter-spacing: 1px;
+			font-weight: 400;
+			font-size: 1.05em;
+			color: rgb(255, 217, 0);
 		}
 
 			@media screen and (max-width: 980px) {
