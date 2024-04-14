@@ -3573,6 +3573,11 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 
+		#wrapper p > span {
+			color: yellow;
+		}
+		
+
 	@media screen and (max-width: 1280px) {
 
 		#wrapper > header {
